@@ -16,6 +16,15 @@ ręcznie właściwości box-sizing: border-box; w każdym elemencie użyj poniż
   --kolor-kontakt: #757575;
   --kolor-przycisk-nieaktywny: #f5f4fa;
 }
+body {
+  background-color: lightGray;
+  /* text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px; */
+}
 .logo {
   text-decoration: none;
   font-family: "Raleway";
@@ -43,7 +52,6 @@ ręcznie właściwości box-sizing: border-box; w każdym elemencie użyj poniż
   letter-spacing: 0.02em;
 }
 .link:hover {
-  text-decoration: underline;
   text-decoration-color: var(--kolor-logo);
 }
 .link:visited {
@@ -70,7 +78,6 @@ ręcznie właściwości box-sizing: border-box; w każdym elemencie użyj poniż
   color: #ffffff;
 }
 .kontakt-adres:hover {
-  text-decoration: underline;
   text-decoration-color: var(--kolor-logo);
 }
 
@@ -83,6 +90,7 @@ ręcznie właściwości box-sizing: border-box; w każdym elemencie użyj poniż
   text-decoration-color: var(--kolor-logo);
 }
 .przycisk {
+  height: 38px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -96,6 +104,23 @@ ręcznie właściwości box-sizing: border-box; w każdym elemencie użyj poniż
   border-width: 1px;
   padding: 6px 22px;
 }
+.przycisk:hover {
+  border-color: var(--kolor-logo);
+  border-width: 1px;
+}
+.przycisk-aktywny {
+  color: white;
+  background: var(--kolor-logo);
+  border-width: 1px;
+  /* box-shadow: 0px 2px 2px rgba(255, 0, 0, 0.9); */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.przycisk-aktywny :hover {
+  border-color: var(--kolor-logo);
+  border-width: 1px;
+}
+
 .tabela-przyciskow {
   padding-top: 94px;
   padding-bottom: 50px;
