@@ -32,6 +32,23 @@ table {
   border-collapse: collapse;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ogloszenie {
+  text-align: center;
+  background-color: var(--kolor-stopka);
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
 .strona {
   width: 1600px;
   margin-left: auto;
